@@ -22,7 +22,8 @@ const EventsPage = () => {
   const [isAddingEvent, setIsAddingEvent] = useState(false);
   const [isUpcoming, setIsUpcoming] = useState(true);
 
-  const API_URL = "http://localhost:5100/events";
+  const API_URL = "https://arcadinia-server.vercel.app/events";
+
 
   // ✅ Fetch events on component mount
   useEffect(() => {
