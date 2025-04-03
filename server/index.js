@@ -9,7 +9,7 @@ const app = express();
 app.use(express.json());
 app.use(
   cors({
-    origin: ["https://arcadinia-frontend.vercel.app/events"],
+    origin: ["https://arcadinia-frontend.vercel.app"],
     methods: ["POST", "GET", "PUT", "DELETE"],
     credentials: true,
   })
